@@ -8,13 +8,15 @@ import { AddBookComponent } from './add-book/add-book.component';
 import { AppRoutingModule } from './app-routing.module';
 import { RouterModule, Routes } from '@angular/router';
 import { BooksComponent } from './books/books.component';
-import { AddUserComponent } from './add-user/add-user.component'
+import { AddUserComponent } from './add-user/add-user.component';
+import { BorrowBookComponent } from './borrow-book/borrow-book.component'
 @NgModule({
   declarations: [
     AppComponent,
     AddBookComponent,
     BooksComponent,
-    AddUserComponent
+    AddUserComponent,
+    BorrowBookComponent
   ],
   imports: [
     BrowserModule,
